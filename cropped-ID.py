@@ -10,8 +10,6 @@ img_path = 'uncropped-img\ID_example1.jpg'
 
 # x = x coordinate of top-left vertice (O1) of the area that's supposed to be cropped
 # y = y coordinate of top-left vertice (O1) of the area that's supposed to be cropped
-# width = width of area that's supposed to be cut
-# height = height of area that's supposed to be cut
 #   O1------O2
 #   |        |
 #   O3------O4
@@ -35,7 +33,6 @@ cropped_img = crop_img(uncropped_img, x, y, width, height)
 output_dir = './results-cropped-img'
 if not os.path.exists(output_dir):
     os.makedirs(output_dir)
-# If the output folder doesn't exist, this will create it
 
 
 # READING THE IMAGE -------------------------------------------------------

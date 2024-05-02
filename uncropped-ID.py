@@ -33,7 +33,7 @@ for idx, res in enumerate(result):
 
 # Print results in the terminal as well
 for idx, res in enumerate(result):
-    print(f"\n\n****Resultados para a imagem {img_path}****\n")
+    print(f"\n\n****EXTRACTED DATA RESULTS FOR IMAGE: {os.path.basename(img_path)}****\n")
     for line in res:
         print(line)
     print("\n")
